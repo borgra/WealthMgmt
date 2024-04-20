@@ -61,8 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Table\AccountType.sql" />
+    <Build Include="Table\User.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Pre-Deployment\Seed_AccountType.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="WealthMgmt.Infrastructure.Database.refactorlog" />
   </ItemGroup>
 </Project>
