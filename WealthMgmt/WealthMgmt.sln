@@ -7,6 +7,10 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WealthMgmt.Infrastructure.D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WealthMgmt.Infrastructure.Azure", "WealthMgmt.Infrastructure.Azure", "{AECF0BC4-3B36-459B-B8A5-35C20E12F6F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WealthMgmt.Core.Domain", "WealthMgmt.Core.Domain\WealthMgmt.Core.Domain.csproj", "{DB48579E-5AB6-489E-AABA-2A40A1CE8E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WealthMgmt.Core.Application", "WealthMgmt.Core.Application\WealthMgmt.Core.Application.csproj", "{F3B9DF33-761E-4626-8EEF-F2110C7B1F77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{27700AEA-908E-419F-9E64-635A4A7DB185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27700AEA-908E-419F-9E64-635A4A7DB185}.Release|Any CPU.Build.0 = Release|Any CPU
 		{27700AEA-908E-419F-9E64-635A4A7DB185}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DB48579E-5AB6-489E-AABA-2A40A1CE8E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB48579E-5AB6-489E-AABA-2A40A1CE8E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB48579E-5AB6-489E-AABA-2A40A1CE8E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB48579E-5AB6-489E-AABA-2A40A1CE8E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B9DF33-761E-4626-8EEF-F2110C7B1F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B9DF33-761E-4626-8EEF-F2110C7B1F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B9DF33-761E-4626-8EEF-F2110C7B1F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B9DF33-761E-4626-8EEF-F2110C7B1F77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
