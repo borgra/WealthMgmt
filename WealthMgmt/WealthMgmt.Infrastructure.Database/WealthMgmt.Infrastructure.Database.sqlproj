@@ -56,18 +56,6 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="Table" />
-    <Folder Include="Post_Deployment" />
-  </ItemGroup>
-  <ItemGroup>
-    <Build Include="Table\AccountType.sql" />
-    <Build Include="Table\User.sql" />
-    <Build Include="Table\AccountAttribute.sql" />
-    <Build Include="Table\UserAccount.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <PostDeploy Include="Post_Deployment\Seed_AccountType.sql" />
-    <None Include="Post_Deployment\Master.PostDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="WealthMgmt.Infrastructure.Database.refactorlog" />
