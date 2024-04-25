@@ -11,4 +11,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UseCase\Account\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WealthMgmt.Core.Application\WealthMgmt.Core.Application.csproj" />
+  </ItemGroup>
+
 </Project>
