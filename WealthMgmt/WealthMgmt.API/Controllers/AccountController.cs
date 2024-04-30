@@ -1,13 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using WealthMgmt.Core.Application.UseCase.Account.Queries.GetAccountById;
 
 namespace WealthMgmt.API.Controllers
 {
-    //[Route("[controller]/v1")]
-    public class AccountController : Controller
+    [ApiController]
+    [Route("[controller]")]
+    public class AccountController(IMediator mediator) : ControllerBase
     {
-        public IActionResult Index()
+        [HttpGet(Name = "GetAccountById")]
+        public async Task<Core.Domain.Entities.Account> GetAccountById(int id)
         {
-            return View();
+            return await mediator.Send(new GetAccountByIdCommand(id));
         }
     }
 }

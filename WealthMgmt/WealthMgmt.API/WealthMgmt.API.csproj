@@ -12,11 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="UseCase\Account\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\WealthMgmt.Core.Application\WealthMgmt.Core.Application.csproj" />
+    <ProjectReference Include="..\WealthMgmt.Core.Domain\WealthMgmt.Core.Domain.csproj" />
+    <ProjectReference Include="..\WealthMgmt.Persistence.InMemory\WealthMgmt.Persistence.InMemory.csproj" />
   </ItemGroup>
 
 </Project>
