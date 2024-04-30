@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WealthMgmt.Infrastructure.Azure", "WealthMgmt.Infrastructure.Azure", "{AECF0BC4-3B36-459B-B8A5-35C20E12F6F8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WealthMgmt.Core.Domain", "WealthMgmt.Core.Domain\WealthMgmt.Core.Domain.csproj", "{DB48579E-5AB6-489E-AABA-2A40A1CE8E06}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WealthMgmt.Core.Application", "WealthMgmt.Core.Application\WealthMgmt.Core.Application.csproj", "{F3B9DF33-761E-4626-8EEF-F2110C7B1F77}"
