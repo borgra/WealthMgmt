@@ -11,10 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WealthMgmt.Core.Application
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WealthMgmt.API", "WealthMgmt.API\WealthMgmt.API.csproj", "{29051379-282F-4307-B376-4F02EFE968C1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WealthMgmt.PoC", "WealthMgmt.PoC", "{FDFF7179-2BA1-4DE5-B62B-66140E34BABC}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WealthMgmt.POC.ConsoleApp", "WealthMgmt.POC.ConsoleApp\WealthMgmt.POC.ConsoleApp.csproj", "{64F92AAE-3662-4A12-BBE8-D031B9DCAD12}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,16 +29,9 @@ Global
 		{29051379-282F-4307-B376-4F02EFE968C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29051379-282F-4307-B376-4F02EFE968C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29051379-282F-4307-B376-4F02EFE968C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{64F92AAE-3662-4A12-BBE8-D031B9DCAD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64F92AAE-3662-4A12-BBE8-D031B9DCAD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64F92AAE-3662-4A12-BBE8-D031B9DCAD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64F92AAE-3662-4A12-BBE8-D031B9DCAD12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{64F92AAE-3662-4A12-BBE8-D031B9DCAD12} = {FDFF7179-2BA1-4DE5-B62B-66140E34BABC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BFD7E33-BE59-4424-9C3B-07BC9CCCC60C}
