@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WealthMgmt.Core.Application.DTO;
 
 namespace WealthMgmt.API.Controllers
 {
@@ -10,12 +9,5 @@ namespace WealthMgmt.API.Controllers
         {
             return View();
         }
-
-        //[Route("/Account/{id}")]
-        //public async Task<ActionResult<AccountDTO>> GetAccountAsync(int id)
-        //{
-        //    return null;
-        //}
-
     }
 }
